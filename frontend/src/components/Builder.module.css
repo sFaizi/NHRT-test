@@ -1,0 +1,96 @@
+.builder {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  padding: 5rem;
+  gap: 4rem;
+  width: 70%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1000px) {
+  .builder {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+.buil_form {
+  background-color: #fff;
+  display: grid;
+  gap: 3rem;
+  box-shadow: 0px 0px 5px rgb(154, 154, 154);
+  border-radius: 10px;
+}
+
+.buil_formQA {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+}
+.buil_formQA_inputDiv {
+  display: grid;
+}
+.buil_formQA_inputDiv label {
+  font-size: 1.3rem;
+  color: blue;
+}
+.buil_formQA_inputDiv input {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin-top: 0.2rem;
+}
+.buil_formQA_inputDiv input:focus {
+  outline: none;
+}
+.Builder_opt {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  border: 1px solid blue;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.Builder_optBtn {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+.build_drop {
+  border: 1px solid blue;
+  padding: 0.8rem;
+}
+.build_drop_inputDiv {
+  display: grid;
+  gap: 1rem;
+}
+.build_drop_inputDivTitle {
+  display: grid;
+  width: 70%;
+}
+.build_drop_inputDivOpt {
+  width: 70%;
+  display: grid;
+  gap: 0.2rem;
+}
+.build_drop_inputDivOptInpt {
+  border: 1px solid lightblue;
+}
+.build_drop_inputDiv label {
+}
+.build_drop_inputDiv select {
+  width: 50%;
+}
+.build_drop_inputDiv select option {
+}
+.addBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: blue;
+  color: #fff;
+  padding: 0.5rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

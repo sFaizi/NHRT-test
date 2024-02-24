@@ -1,0 +1,55 @@
+.list {
+  padding: 4rem;
+  display: grid;
+  gap: 1rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .list {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+.listItem {
+  box-shadow: 0px 0px 5px rgb(154, 154, 154);
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 5px;
+  display: grid;
+  gap: 0.6rem;
+}
+.listQue {
+  font-size: 1.2rem;
+  color: rgb(16, 65, 134);
+}
+.listAns {
+  font-size: 0.9rem;
+  color: rgb(161, 161, 161);
+}
+.AnswerInput {
+  padding: 1.5rem;
+  border-radius: 5px;
+  border: 1px solid lightblue;
+}
+.DropInput {
+  border-radius: 5px;
+  border: 1px solid lightblue;
+  padding: 1rem;
+}
+.AnswerInput:focus,
+.DropInput:focus {
+  outline: none;
+}
+
+.MultiInput {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+.MultiInputDiv {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
