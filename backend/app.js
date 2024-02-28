@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 // MongoDB Connection
 mongoose
   .connect(
-    'mongodb+srv://sartajfaizi:2zmDa1Q5I9ZaDimh@cluster0.7w4kzbb.mongodb.net/?retryWrites=true&w=majority'
+    'Please use your own mongoDB connection string'
   )
   .then(() => console.log('DB Active'));
 
